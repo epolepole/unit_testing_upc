@@ -1,0 +1,668 @@
+The system is: Linux - 4.4.0-22-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/berkeley_upc/bin/upcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/berkeley_upc/bin/upcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63fc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63fc9.dir/build.make CMakeFiles/cmTC_63fc9.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63fc9.dir/testCCompiler.c.o
+/usr/local/berkeley_upc/bin/upcc     -o CMakeFiles/cmTC_63fc9.dir/testCCompiler.c.o   -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_63fc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63fc9.dir/link.txt --verbose=1
+/usr/local/berkeley_upc/bin/upcc       CMakeFiles/cmTC_63fc9.dir/testCCompiler.c.o  -o cmTC_63fc9  
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e937f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e937f.dir/build.make CMakeFiles/cmTC_e937f.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o
+/usr/local/berkeley_upc/bin/upcc     -o CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e937f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e937f.dir/link.txt --verbose=1
+/usr/local/berkeley_upc/bin/upcc      -v CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o  -o cmTC_e937f   
+Running as: /usr/local/berkeley_upc/bin/upcc_multi.pl -v 'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' -o cmTC_e937f
+Reading multiconf spec file [/usr/local/berkeley_upc/etc/multiconf.conf]
+Setting CONFIGURE_OPTIONS=''
+Setting FORCED_OPTIONS=''
+Setting ENABLED_CONFS='dbg opt'
+Setting BUPC_TRANS='http://upc-translator.lbl.gov/upcc-2.22.2.cgi'
+Setting GUPC_TRANS='/usr/local/upc/bin/upc'
+Setting CUPC_TRANS='/usr/local/upc/bin/clang-upc'
+Setting CUPC2C_TRANS='/usr/local/upc/bin/clang-upc2c'
+Setting BLACKLISTED_ENABLE_OPTIONS='debug,totalview,trace,stats,inst'
+Setting BLACKLISTED_WITH_OPTIONS='gupc,cupc,clang-upc2c,translator'
+Final ENABLED_CONFS=opt dbg
+Read enabled conf: error ;  the -g flag is incompatibile with the -inst* flags ; $opt{'g'} && ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} || $opt{'inst-toolname'} )  ; 
+Read enabled conf: error ;  the -bupc and -gccupc flags are mutually exclusive ; $opt{'bupc'} && $opt{'gccupc'}  ; 
+Read enabled conf: error ;  the -bupc and -gupc flags are mutually exclusive ; $opt{'bupc'} && $opt{'gupc'}  ; 
+Read enabled conf: error ;  the -cupc2c and -gccupc flags are mutually exclusive ; $opt{'cupc2c'} && $opt{'gccupc'}  ; 
+Read enabled conf: error ;  the -cupc2c and -gupc flags are mutually exclusive ; $opt{'cupc2c'} && $opt{'gupc'}  ; 
+Read enabled conf: error ;  the -cupc2c and -bupc flags are mutually exclusive ; $opt{'cupc2c'} && $opt{'bupc'}  ; 
+Read enabled conf: error ;  the -cupc and -gccupc flags are mutually exclusive ; $opt{'cupc'} && $opt{'gccupc'}  ; 
+Read enabled conf: error ;  the -cupc and -gupc flags are mutually exclusive ; $opt{'cupc'} && $opt{'gupc'}  ; 
+Read enabled conf: error ;  the -cupc and -bupc flags are mutually exclusive ; $opt{'cupc'} && $opt{'bupc'}  ; 
+Read enabled conf: error ;  the -cupc and -cupc2c flags are mutually exclusive ; $opt{'cupc'} && $opt{'cupc2c'}  ; 
+Read disabled conf: dbg_gupc ;  --with-gupc="${GUPC_TRANS}" --enable-debug  ; $opt{'g'} && ( $opt{'gupc'} || $opt{'gccupc'} )  ; gupc,gccupc
+Read disabled conf: opt_gupc ;  --with-gupc="${GUPC_TRANS}"  ; $opt{'gupc'} || $opt{'gccupc'}  ; gupc,gccupc
+Read disabled conf: dbg_cupc ;  --with-cupc="${CUPC_TRANS}" --disable-pthreads --enable-debug  ; $opt{'g'} && $opt{'cupc'}  ; cupc
+Read disabled conf: opt_cupc ;  --with-cupc="${CUPC_TRANS}" --disable-pthreads  ; $opt{'cupc'}  ; cupc
+Read disabled conf: dbg_cupc2c ;  --with-clang-upc2c="${CUPC2C_TRANS}" --enable-debug  ; $opt{'g'} && $opt{'cupc2c'}  ; cupc2c
+Read disabled conf: opt_cupc2c_trace ;  --with-clang-upc2c="${CUPC2C_TRANS}" --enable-trace --enable-stats  ; $opt{'cupc2c'} && $opt{'trace'}  ; cupc2c
+Read disabled conf: opt_cupc2c_inst ;  --with-clang-upc2c="${CUPC2C_TRANS}" --enable-inst  ; $opt{'cupc2c'} && ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} || $opt{'inst-toolname'} )  ; cupc2c
+Read disabled conf: opt_cupc2c ;  --with-clang-upc2c="${CUPC2C_TRANS}"  ; $opt{'cupc2c'}  ; cupc2c
+Read enabled conf: dbg ;  --with-translator="$BUPC_TRANS" --enable-debug  ; $opt{'g'} && !$opt{'tv'}  ; bupc
+Read disabled conf: dbg_tv ;  --with-translator="$BUPC_TRANS" --enable-debug --enable-totalview  ; ( $opt{'g'} || $opt{'tv'} )  ; bupc
+Read disabled conf: opt_trace ;  --with-translator="$BUPC_TRANS" --enable-trace --enable-stats  ; $opt{'trace'}  ; bupc
+Read disabled conf: opt_inst ;  --with-translator="$BUPC_TRANS" --enable-inst  ; ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} ) || $opt{'inst-toolname'}  ; bupc
+Read enabled conf: opt ;  --with-translator="$BUPC_TRANS"  ; 1  ; bupc
+Options: v o
+error: $opt{'g'} && ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} || $opt{'inst-toolname'} )  => FALSE
+error: $opt{'bupc'} && $opt{'gccupc'}  => FALSE
+error: $opt{'bupc'} && $opt{'gupc'}  => FALSE
+error: $opt{'cupc2c'} && $opt{'gccupc'}  => FALSE
+error: $opt{'cupc2c'} && $opt{'gupc'}  => FALSE
+error: $opt{'cupc2c'} && $opt{'bupc'}  => FALSE
+error: $opt{'cupc'} && $opt{'gccupc'}  => FALSE
+error: $opt{'cupc'} && $opt{'gupc'}  => FALSE
+error: $opt{'cupc'} && $opt{'bupc'}  => FALSE
+error: $opt{'cupc'} && $opt{'cupc2c'}  => FALSE
+dbg: $opt{'g'} && !$opt{'tv'}  => FALSE
+opt: 1  => TRUE
+stripping args: bupc
+Invoking: '/usr/bin/perl' '-Mbytes' '/usr/local/berkeley_upc/opt/bin/upcc.pl' '-v' 'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' '-o' 'cmTC_e937f'
+*** upcc running as: '-v CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o -o cmTC_e937f'
+--------------------------------------------------------------------------------
+TRANSLATING
+*** Resolved upc-translator.lbl.gov to: 128.3.16.150:80[aphid.lbl.gov], 128.55.6.196:80[upc.nersc.gov], 216.34.181.96:80[gasnet.sourceforge.net]
+*** upcc running: '( '/bin/tar' cf - *.i upcc-sizes | '/bin/gzip' -c -6 > /tmp/upcc-epolepole-31423-1464460671/http_request.tar.gz )' in /tmp/upcc-epolepole-31423-1464460671 ***
+*** Making HTTP request to http://upc-translator.lbl.gov/upcc-2.22.2.cgi (128.3.16.150:80)
+*** upcc running: '( '/bin/gzip' -d -c /tmp/upcc-epolepole-31423-1464460671/http_reply.tar.gz > /tmp/upcc-epolepole-31423-1464460671/http_reply.tar )' in /tmp/upcc-epolepole-31423-1464460671 ***
+*** upcc running: ''/bin/tar' xf /tmp/upcc-epolepole-31423-1464460671/http_reply.tar' in /tmp/upcc-epolepole-31423-1464460671 ***
+*** upcc running: 'mv -f '/tmp/upcc-epolepole-31423-1464460671/trans_extra_linkdummy.trans.c.tmp' '/tmp/upcc-epolepole-31423-1464460671/trans_extra_linkdummy.trans.c'' in /tmp/upcc-epolepole-31423-1464460671 ***
+*** upcc running: 'touch *.i' in /tmp/upcc-epolepole-31423-1464460671 ***
+*** upcc running as: '--at-remote-http -translator=/usr/local/upc/2.22.2/translator/install/targ --arch-size=64 --network=smp -v --lines --trans --sizes-file=upcc-sizes trans_extra_linkdummy.i'
+*** REMOTE upcc is: aphid:/usr/local/upc/2.22.2/runtime/inst/bin/upcc.pl (Thu May 12 15:58:53 2016)
+*** REMOTE upcc running: 'cp -f 'trans_extra_linkdummy.i' '/tmp/upcc--5247-1464460671'' ***
+*** REMOTE upcc running: 'ulimit -v 524288  > /dev/null 2>&1 ; ulimit -d 524288  > /dev/null 2>&1 ; ulimit -m 524288  > /dev/null 2>&1 ;
+/usr/local/upc/2.22.2/translator/install/targ/driver.nue/sgiupc -noinline -S -keep -Yf,/usr/local/upc/2.22.2/translator/install/targ/gccfe -Yb,/usr/local/upc/2.22.2/translator/install/targ/be  -fconfig-/tmp/upcc-net.5242.1464460671/upcc-sizes 'trans_extra_linkdummy.i'' in /tmp/upcc--5247-1464460671 ***
+*** REMOTE upcc running: 'ulimit -v 524288  > /dev/null 2>&1 ; ulimit -d 524288  > /dev/null 2>&1 ; ulimit -m 524288  > /dev/null 2>&1 ;
+/usr/local/upc/2.22.2/translator/install/targ/whirl2c/whirl2c -lang=upc -std=upc -CLIST:emit_linedirs 'trans_extra_linkdummy.i' '-fB,trans_extra_linkdummy.N'' in /tmp/upcc--5247-1464460671 ***
+*** REMOTE upcc running: 'cp '/tmp/upcc--5247-1464460671/trans_extra_linkdummy.trans.c' '/tmp/upcc-net.5242.1464460671'' ***
+*** REMOTE upcc running: 'cp '/tmp/upcc--5247-1464460671/upcr_trans_extra.c' '/tmp/upcc-net.5242.1464460671'' ***
+--------------------------------------------------------------------------------
+LINKING
+*** upcc running '/usr/bin/nm CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o'
+*** upcc running: '/usr/bin/make --no-print-directory -f /usr/local/berkeley_upc/opt/include/upcc.mak UPCR_HOME=/usr/local/berkeley_upc/opt UPCR_CONDUIT=smp UPCR_PARSEQ=seq EXTRA_CPPFLAGS="-D__BERKELEY_UPC_RUNTIME__=1 -D__BERKELEY_UPC_RUNTIME_RELEASE__=2 -D__BERKELEY_UPC_RUNTIME_RELEASE_MINOR__=22 -D__BERKELEY_UPC_RUNTIME_RELEASE_PATCHLEVEL__=2 -D__BERKELEY_UPC_SMP_CONDUIT__=1 -D__UPC_COLLECTIVE__=1 -D__UPC_PUPC__=1 -D__UPC_IO__=2 -D__UPC_TICK__=1 -D__UPC_CASTABLE__=1 -D__UPC_NB__=1 -D__BERKELEY_UPC_PSHM__=1 -D__BERKELEY_UPC__=2 -D__BERKELEY_UPC_MINOR__=22 -D__BERKELEY_UPC_PATCHLEVEL__=2 -DUPC_MAX_BLOCK_SIZE=1048576 -D__UPC__=1 -D__UPC_VERSION__=201311L -D__UPC_DYNAMIC_THREADS__=1"  EXTRA_CFLAGS=" " 'cmTC_e937f_startup_tmp.o'' in /tmp/upcc-epolepole-31423-1464460671 ***
+/usr/bin/gcc  -O3 --param max-inline-insns-single=35000 --param inline-unit-growth=10000 --param large-function-growth=200000 -Winline      -fno-strict-aliasing  -D__BERKELEY_UPC_RUNTIME__=1 -D__BERKELEY_UPC_RUNTIME_RELEASE__=2 -D__BERKELEY_UPC_RUNTIME_RELEASE_MINOR__=22 -D__BERKELEY_UPC_RUNTIME_RELEASE_PATCHLEVEL__=2 -D__BERKELEY_UPC_SMP_CONDUIT__=1 -D__UPC_COLLECTIVE__=1 -D__UPC_PUPC__=1 -D__UPC_IO__=2 -D__UPC_TICK__=1 -D__UPC_CASTABLE__=1 -D__UPC_NB__=1 -D__BERKELEY_UPC_PSHM__=1 -D__BERKELEY_UPC__=2 -D__BERKELEY_UPC_MINOR__=22 -D__BERKELEY_UPC_PATCHLEVEL__=2 -DUPC_MAX_BLOCK_SIZE=1048576 -D__UPC__=1 -D__UPC_VERSION__=201311L -D__UPC_DYNAMIC_THREADS__=1 -DGASNET_SEQ    -I/usr/local/berkeley_upc/opt/include/upcr_geninclude -I/usr/local/berkeley_upc/opt/include -I/usr/local/berkeley_upc/opt/include/smp-conduit   -I/usr/local/berkeley_upc/opt/include    -I/usr/local/berkeley_upc/opt/include/upcr_postinclude -D__BERKELEY_UPC_SECOND_PREPROCESS__=1 -DUPCRI_CC="/usr/bin/gcc" -DUPCRI_LD="/usr/bin/gcc"  -c 'cmTC_e937f_startup_tmp.c'
+*** upcc running: '/usr/bin/make --no-print-directory -f /usr/local/berkeley_upc/opt/include/upcc.mak UPCR_HOME=/usr/local/berkeley_upc/opt UPCR_CONDUIT=smp UPCR_PARSEQ=seq OBJS="'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' '/tmp/upcc-epolepole-31423-1464460671/cmTC_e937f_startup_tmp.o'" EXTRA_LDFLAGS=" " OUT="cmTC_e937f"' ***
+/usr/bin/gcc   -o 'cmTC_e937f' 'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' '/tmp/upcc-epolepole-31423-1464460671/cmTC_e937f_startup_tmp.o' -O3 --param max-inline-insns-single=35000 --param inline-unit-growth=10000 --param large-function-growth=200000 -Winline      -L/usr/local/berkeley_upc/opt/lib -lupcr-smp-seq -lumalloc -L/usr/local/berkeley_upc/opt/lib   -lgasnet-smp-seq    -lrt -L/usr/lib/gcc/x86_64-linux-gnu/5 -lgcc -lm    
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e937f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e937f.dir/build.make CMakeFiles/cmTC_e937f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/berkeley_upc/bin/upcc     -o CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e937f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e937f.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/berkeley_upc/bin/upcc      -v CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o  -o cmTC_e937f   ]
+  ignore line: [Running as: /usr/local/berkeley_upc/bin/upcc_multi.pl -v 'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' -o cmTC_e937f]
+  ignore line: [Reading multiconf spec file [/usr/local/berkeley_upc/etc/multiconf.conf]]
+  ignore line: [Setting CONFIGURE_OPTIONS='']
+  ignore line: [Setting FORCED_OPTIONS='']
+  ignore line: [Setting ENABLED_CONFS='dbg opt']
+  ignore line: [Setting BUPC_TRANS='http://upc-translator.lbl.gov/upcc-2.22.2.cgi']
+  ignore line: [Setting GUPC_TRANS='/usr/local/upc/bin/upc']
+  ignore line: [Setting CUPC_TRANS='/usr/local/upc/bin/clang-upc']
+  ignore line: [Setting CUPC2C_TRANS='/usr/local/upc/bin/clang-upc2c']
+  ignore line: [Setting BLACKLISTED_ENABLE_OPTIONS='debug,totalview,trace,stats,inst']
+  ignore line: [Setting BLACKLISTED_WITH_OPTIONS='gupc,cupc,clang-upc2c,translator']
+  ignore line: [Final ENABLED_CONFS=opt dbg]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -g flag is incompatibile with the -inst* flags ]
+  ignore line: [ $opt{'g'} && ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} || $opt{'inst-toolname'} )  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -bupc and -gccupc flags are mutually exclusive ]
+  ignore line: [ $opt{'bupc'} && $opt{'gccupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -bupc and -gupc flags are mutually exclusive ]
+  ignore line: [ $opt{'bupc'} && $opt{'gupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc2c and -gccupc flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc2c'} && $opt{'gccupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc2c and -gupc flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc2c'} && $opt{'gupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc2c and -bupc flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc2c'} && $opt{'bupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc and -gccupc flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc'} && $opt{'gccupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc and -gupc flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc'} && $opt{'gupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc and -bupc flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc'} && $opt{'bupc'}  ]
+  ignore line: [ ]
+  ignore line: [Read enabled conf: error ]
+  ignore line: [  the -cupc and -cupc2c flags are mutually exclusive ]
+  ignore line: [ $opt{'cupc'} && $opt{'cupc2c'}  ]
+  ignore line: [ ]
+  ignore line: [Read disabled conf: dbg_gupc ]
+  ignore line: [  --with-gupc="${GUPC_TRANS}" --enable-debug  ]
+  ignore line: [ $opt{'g'} && ( $opt{'gupc'} || $opt{'gccupc'} )  ]
+  ignore line: [ gupc,gccupc]
+  ignore line: [Read disabled conf: opt_gupc ]
+  ignore line: [  --with-gupc="${GUPC_TRANS}"  ]
+  ignore line: [ $opt{'gupc'} || $opt{'gccupc'}  ]
+  ignore line: [ gupc,gccupc]
+  ignore line: [Read disabled conf: dbg_cupc ]
+  ignore line: [  --with-cupc="${CUPC_TRANS}" --disable-pthreads --enable-debug  ]
+  ignore line: [ $opt{'g'} && $opt{'cupc'}  ]
+  ignore line: [ cupc]
+  ignore line: [Read disabled conf: opt_cupc ]
+  ignore line: [  --with-cupc="${CUPC_TRANS}" --disable-pthreads  ]
+  ignore line: [ $opt{'cupc'}  ]
+  ignore line: [ cupc]
+  ignore line: [Read disabled conf: dbg_cupc2c ]
+  ignore line: [  --with-clang-upc2c="${CUPC2C_TRANS}" --enable-debug  ]
+  ignore line: [ $opt{'g'} && $opt{'cupc2c'}  ]
+  ignore line: [ cupc2c]
+  ignore line: [Read disabled conf: opt_cupc2c_trace ]
+  ignore line: [  --with-clang-upc2c="${CUPC2C_TRANS}" --enable-trace --enable-stats  ]
+  ignore line: [ $opt{'cupc2c'} && $opt{'trace'}  ]
+  ignore line: [ cupc2c]
+  ignore line: [Read disabled conf: opt_cupc2c_inst ]
+  ignore line: [  --with-clang-upc2c="${CUPC2C_TRANS}" --enable-inst  ]
+  ignore line: [ $opt{'cupc2c'} && ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} || $opt{'inst-toolname'} )  ]
+  ignore line: [ cupc2c]
+  ignore line: [Read disabled conf: opt_cupc2c ]
+  ignore line: [  --with-clang-upc2c="${CUPC2C_TRANS}"  ]
+  ignore line: [ $opt{'cupc2c'}  ]
+  ignore line: [ cupc2c]
+  ignore line: [Read enabled conf: dbg ]
+  ignore line: [  --with-translator="$BUPC_TRANS" --enable-debug  ]
+  ignore line: [ $opt{'g'} && !$opt{'tv'}  ]
+  ignore line: [ bupc]
+  ignore line: [Read disabled conf: dbg_tv ]
+  ignore line: [  --with-translator="$BUPC_TRANS" --enable-debug --enable-totalview  ]
+  ignore line: [ ( $opt{'g'} || $opt{'tv'} )  ]
+  ignore line: [ bupc]
+  ignore line: [Read disabled conf: opt_trace ]
+  ignore line: [  --with-translator="$BUPC_TRANS" --enable-trace --enable-stats  ]
+  ignore line: [ $opt{'trace'}  ]
+  ignore line: [ bupc]
+  ignore line: [Read disabled conf: opt_inst ]
+  ignore line: [  --with-translator="$BUPC_TRANS" --enable-inst  ]
+  ignore line: [ ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} ) || $opt{'inst-toolname'}  ]
+  ignore line: [ bupc]
+  ignore line: [Read enabled conf: opt ]
+  ignore line: [  --with-translator="$BUPC_TRANS"  ]
+  ignore line: [ 1  ]
+  ignore line: [ bupc]
+  ignore line: [Options: v o]
+  ignore line: [error: $opt{'g'} && ( $opt{'inst'} || $opt{'inst-functions'} || $opt{'inst-local'} || $opt{'inst-toolname'} )  => FALSE]
+  ignore line: [error: $opt{'bupc'} && $opt{'gccupc'}  => FALSE]
+  ignore line: [error: $opt{'bupc'} && $opt{'gupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc2c'} && $opt{'gccupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc2c'} && $opt{'gupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc2c'} && $opt{'bupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc'} && $opt{'gccupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc'} && $opt{'gupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc'} && $opt{'bupc'}  => FALSE]
+  ignore line: [error: $opt{'cupc'} && $opt{'cupc2c'}  => FALSE]
+  ignore line: [dbg: $opt{'g'} && !$opt{'tv'}  => FALSE]
+  ignore line: [opt: 1  => TRUE]
+  ignore line: [stripping args: bupc]
+  ignore line: [Invoking: '/usr/bin/perl' '-Mbytes' '/usr/local/berkeley_upc/opt/bin/upcc.pl' '-v' 'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' '-o' 'cmTC_e937f']
+  ignore line: [*** upcc running as: '-v CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o -o cmTC_e937f']
+  ignore line: [--------------------------------------------------------------------------------]
+  ignore line: [TRANSLATING]
+  ignore line: [*** Resolved upc-translator.lbl.gov to: 128.3.16.150:80[aphid.lbl.gov], 128.55.6.196:80[upc.nersc.gov], 216.34.181.96:80[gasnet.sourceforge.net]]
+  ignore line: [*** upcc running: '( '/bin/tar' cf - *.i upcc-sizes | '/bin/gzip' -c -6 > /tmp/upcc-epolepole-31423-1464460671/http_request.tar.gz )' in /tmp/upcc-epolepole-31423-1464460671 ***]
+  ignore line: [*** Making HTTP request to http://upc-translator.lbl.gov/upcc-2.22.2.cgi (128.3.16.150:80)]
+  ignore line: [*** upcc running: '( '/bin/gzip' -d -c /tmp/upcc-epolepole-31423-1464460671/http_reply.tar.gz > /tmp/upcc-epolepole-31423-1464460671/http_reply.tar )' in /tmp/upcc-epolepole-31423-1464460671 ***]
+  ignore line: [*** upcc running: ''/bin/tar' xf /tmp/upcc-epolepole-31423-1464460671/http_reply.tar' in /tmp/upcc-epolepole-31423-1464460671 ***]
+  ignore line: [*** upcc running: 'mv -f '/tmp/upcc-epolepole-31423-1464460671/trans_extra_linkdummy.trans.c.tmp' '/tmp/upcc-epolepole-31423-1464460671/trans_extra_linkdummy.trans.c'' in /tmp/upcc-epolepole-31423-1464460671 ***]
+  ignore line: [*** upcc running: 'touch *.i' in /tmp/upcc-epolepole-31423-1464460671 ***]
+  ignore line: [*** upcc running as: '--at-remote-http -translator=/usr/local/upc/2.22.2/translator/install/targ --arch-size=64 --network=smp -v --lines --trans --sizes-file=upcc-sizes trans_extra_linkdummy.i']
+  ignore line: [*** REMOTE upcc is: aphid:/usr/local/upc/2.22.2/runtime/inst/bin/upcc.pl (Thu May 12 15:58:53 2016)]
+  ignore line: [*** REMOTE upcc running: 'cp -f 'trans_extra_linkdummy.i' '/tmp/upcc--5247-1464460671'' ***]
+  ignore line: [*** REMOTE upcc running: 'ulimit -v 524288  > /dev/null 2>&1 ]
+  ignore line: [ ulimit -d 524288  > /dev/null 2>&1 ]
+  ignore line: [ ulimit -m 524288  > /dev/null 2>&1 ]
+  ignore line: []
+  ignore line: [/usr/local/upc/2.22.2/translator/install/targ/driver.nue/sgiupc -noinline -S -keep -Yf,/usr/local/upc/2.22.2/translator/install/targ/gccfe -Yb,/usr/local/upc/2.22.2/translator/install/targ/be  -fconfig-/tmp/upcc-net.5242.1464460671/upcc-sizes 'trans_extra_linkdummy.i'' in /tmp/upcc--5247-1464460671 ***]
+  ignore line: [*** REMOTE upcc running: 'ulimit -v 524288  > /dev/null 2>&1 ]
+  ignore line: [ ulimit -d 524288  > /dev/null 2>&1 ]
+  ignore line: [ ulimit -m 524288  > /dev/null 2>&1 ]
+  ignore line: []
+  ignore line: [/usr/local/upc/2.22.2/translator/install/targ/whirl2c/whirl2c -lang=upc -std=upc -CLIST:emit_linedirs 'trans_extra_linkdummy.i' '-fB,trans_extra_linkdummy.N'' in /tmp/upcc--5247-1464460671 ***]
+  ignore line: [*** REMOTE upcc running: 'cp '/tmp/upcc--5247-1464460671/trans_extra_linkdummy.trans.c' '/tmp/upcc-net.5242.1464460671'' ***]
+  ignore line: [*** REMOTE upcc running: 'cp '/tmp/upcc--5247-1464460671/upcr_trans_extra.c' '/tmp/upcc-net.5242.1464460671'' ***]
+  ignore line: [--------------------------------------------------------------------------------]
+  ignore line: [LINKING]
+  ignore line: [*** upcc running '/usr/bin/nm CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o']
+  ignore line: [*** upcc running: '/usr/bin/make --no-print-directory -f /usr/local/berkeley_upc/opt/include/upcc.mak UPCR_HOME=/usr/local/berkeley_upc/opt UPCR_CONDUIT=smp UPCR_PARSEQ=seq EXTRA_CPPFLAGS="-D__BERKELEY_UPC_RUNTIME__=1 -D__BERKELEY_UPC_RUNTIME_RELEASE__=2 -D__BERKELEY_UPC_RUNTIME_RELEASE_MINOR__=22 -D__BERKELEY_UPC_RUNTIME_RELEASE_PATCHLEVEL__=2 -D__BERKELEY_UPC_SMP_CONDUIT__=1 -D__UPC_COLLECTIVE__=1 -D__UPC_PUPC__=1 -D__UPC_IO__=2 -D__UPC_TICK__=1 -D__UPC_CASTABLE__=1 -D__UPC_NB__=1 -D__BERKELEY_UPC_PSHM__=1 -D__BERKELEY_UPC__=2 -D__BERKELEY_UPC_MINOR__=22 -D__BERKELEY_UPC_PATCHLEVEL__=2 -DUPC_MAX_BLOCK_SIZE=1048576 -D__UPC__=1 -D__UPC_VERSION__=201311L -D__UPC_DYNAMIC_THREADS__=1"  EXTRA_CFLAGS=" " 'cmTC_e937f_startup_tmp.o'' in /tmp/upcc-epolepole-31423-1464460671 ***]
+  ignore line: [/usr/bin/gcc  -O3 --param max-inline-insns-single=35000 --param inline-unit-growth=10000 --param large-function-growth=200000 -Winline      -fno-strict-aliasing  -D__BERKELEY_UPC_RUNTIME__=1 -D__BERKELEY_UPC_RUNTIME_RELEASE__=2 -D__BERKELEY_UPC_RUNTIME_RELEASE_MINOR__=22 -D__BERKELEY_UPC_RUNTIME_RELEASE_PATCHLEVEL__=2 -D__BERKELEY_UPC_SMP_CONDUIT__=1 -D__UPC_COLLECTIVE__=1 -D__UPC_PUPC__=1 -D__UPC_IO__=2 -D__UPC_TICK__=1 -D__UPC_CASTABLE__=1 -D__UPC_NB__=1 -D__BERKELEY_UPC_PSHM__=1 -D__BERKELEY_UPC__=2 -D__BERKELEY_UPC_MINOR__=22 -D__BERKELEY_UPC_PATCHLEVEL__=2 -DUPC_MAX_BLOCK_SIZE=1048576 -D__UPC__=1 -D__UPC_VERSION__=201311L -D__UPC_DYNAMIC_THREADS__=1 -DGASNET_SEQ    -I/usr/local/berkeley_upc/opt/include/upcr_geninclude -I/usr/local/berkeley_upc/opt/include -I/usr/local/berkeley_upc/opt/include/smp-conduit   -I/usr/local/berkeley_upc/opt/include    -I/usr/local/berkeley_upc/opt/include/upcr_postinclude -D__BERKELEY_UPC_SECOND_PREPROCESS__=1 -DUPCRI_CC="/usr/bin/gcc" -DUPCRI_LD="/usr/bin/gcc"  -c 'cmTC_e937f_startup_tmp.c']
+  ignore line: [*** upcc running: '/usr/bin/make --no-print-directory -f /usr/local/berkeley_upc/opt/include/upcc.mak UPCR_HOME=/usr/local/berkeley_upc/opt UPCR_CONDUIT=smp UPCR_PARSEQ=seq OBJS="'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' '/tmp/upcc-epolepole-31423-1464460671/cmTC_e937f_startup_tmp.o'" EXTRA_LDFLAGS=" " OUT="cmTC_e937f"' ***]
+  ignore line: [/usr/bin/gcc   -o 'cmTC_e937f' 'CMakeFiles/cmTC_e937f.dir/CMakeCCompilerABI.c.o' '/tmp/upcc-epolepole-31423-1464460671/cmTC_e937f_startup_tmp.o' -O3 --param max-inline-insns-single=35000 --param inline-unit-growth=10000 --param large-function-growth=200000 -Winline      -L/usr/local/berkeley_upc/opt/lib -lupcr-smp-seq -lumalloc -L/usr/local/berkeley_upc/opt/lib   -lgasnet-smp-seq    -lrt -L/usr/lib/gcc/x86_64-linux-gnu/5 -lgcc -lm    ]
+  ignore line: [make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a879/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a879.dir/build.make CMakeFiles/cmTC_3a879.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a879.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_3a879.dir/testCXXCompiler.cxx.o -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3a879
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a879.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_3a879.dir/testCXXCompiler.cxx.o  -o cmTC_3a879  
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecad0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecad0.dir/build.make CMakeFiles/cmTC_ecad0.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ecad0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecad0.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ecad0   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.3.1-14ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ecad0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0VAB1D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ecad0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ecad0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ecad0.dir/build.make CMakeFiles/cmTC_ecad0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ecad0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecad0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ecad0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.3.1-14ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ecad0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0VAB1D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ecad0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0VAB1D.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ecad0] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_ecad0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09586/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09586.dir/build.make CMakeFiles/cmTC_09586.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09586.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_09586.dir/feature_tests.cxx.o -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_09586
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09586.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_09586.dir/feature_tests.cxx.o  -o cmTC_09586  
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f281/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f281.dir/build.make CMakeFiles/cmTC_5f281.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f281.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_5f281.dir/feature_tests.cxx.o -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5f281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f281.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5f281.dir/feature_tests.cxx.o  -o cmTC_5f281  
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06d0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06d0c.dir/build.make CMakeFiles/cmTC_06d0c.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06d0c.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_06d0c.dir/feature_tests.cxx.o -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_06d0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06d0c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_06d0c.dir/feature_tests.cxx.o  -o cmTC_06d0c  
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

@@ -1,0 +1,36 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e203/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e203.dir/build.make CMakeFiles/cmTC_9e203.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e203.dir/testCCompiler.c.o
+/usr/local/berkeley_upc/bin/upcc     -o CMakeFiles/cmTC_9e203.dir/testCCompiler.c.o   -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9e203
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e203.dir/link.txt --verbose=1
+/usr/local/berkeley_upc/bin/upcc       CMakeFiles/cmTC_9e203.dir/testCCompiler.c.o  -o cmTC_9e203 -rdynamic 
+upcc: unrecognized flag '-rdynamic'
+CMakeFiles/cmTC_9e203.dir/build.make:97: recipe for target 'cmTC_9e203' failed
+make[1]: *** [cmTC_9e203] Error 255
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9e203/fast' failed
+make: *** [cmTC_9e203/fast] Error 2
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a629/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a629.dir/build.make CMakeFiles/cmTC_9a629.dir/build
+make[1]: Entering directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a629.dir/feature_tests.c.o
+/usr/local/berkeley_upc/bin/upcc    -std=c11 -o CMakeFiles/cmTC_9a629.dir/feature_tests.c.o   -c /home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/feature_tests.c
+upcc: unrecognized flag '-std=c11'
+CMakeFiles/cmTC_9a629.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9a629.dir/feature_tests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a629.dir/feature_tests.c.o] Error 255
+make[1]: Leaving directory '/home/epolepole/Dropbox/Universidad/Thesis/unit_testing_upc/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a629/fast' failed
+make: *** [cmTC_9a629/fast] Error 2
+
+
+

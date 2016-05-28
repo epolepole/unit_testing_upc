@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/epolepole/Thesis/unit_testing_upc/src/main.c
+check.h
+-
+stdio.h
+-
+upc.h
+-
+
+/home/epolepole/Thesis/unit_testing_upc/src/money.c
+
