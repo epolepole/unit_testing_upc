@@ -1,7 +1,0 @@
-/home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/edit_cache.dir
-/home/epolepole/Thesis/unit_testing_upc/build/CMakeFiles/rebuild_cache.dir
-/home/epolepole/Thesis/unit_testing_upc/build/src/CMakeFiles/edit_cache.dir
-/home/epolepole/Thesis/unit_testing_upc/build/src/CMakeFiles/rebuild_cache.dir
-/home/epolepole/Thesis/unit_testing_upc/build/src/CMakeFiles/UnitTesting.dir
-/home/epolepole/Thesis/unit_testing_upc/build/tests/CMakeFiles/edit_cache.dir
-/home/epolepole/Thesis/unit_testing_upc/build/tests/CMakeFiles/rebuild_cache.dir

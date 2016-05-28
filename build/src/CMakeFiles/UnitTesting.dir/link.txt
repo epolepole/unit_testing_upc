@@ -1,1 +1,0 @@
-/usr/local/berkeley_upc/bin/upcc  -T 8 -g   CMakeFiles/UnitTesting.dir/main.c.o CMakeFiles/UnitTesting.dir/money.c.o  -o ../bin/UnitTesting  -lcheck 
